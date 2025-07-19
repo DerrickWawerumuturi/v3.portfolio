@@ -26,7 +26,7 @@ export const clientReviews = [
         id: 1,
         name: 'Simon Muturi',
         position: 'Cofounder, PhysioMedix',
-        img: 'assets/review1.png',
+        img: 'assets/simon.png',
         review:
             'Working with Derrick was a fantastic experience. He transformed our outdated website into a modern, user-friendly platform. His attention to detail and commitment to quality are unmatched. Highly recommend him for any web dev projects.',
     },
@@ -203,6 +203,15 @@ export const calculateSizes = (isSmall, isMobile, isTablet) => {
 export const workExperiences = [
     {
         id: 1,
+        name: "Generous Circle",
+        pos: "Full Stack Developer",
+        duration: "2025 - Present",
+        title: "As a Full Stack Developer at Generous Circle, I contribute to both the frontend and backend development of the congrats.ai platform. I’m also involved in designing and implementing key features that enhance user experience and system performance.",
+        icon: '/assets/gc.ico',
+        animation: 'victory',
+    },
+    {
+        id: 2,
         name: 'PhysioMedix',
         pos: 'Lead Web Developer',
         duration: '2024 - 2025',
@@ -211,7 +220,7 @@ export const workExperiences = [
         animation: 'victory',
     },
     {
-        id: 2,
+        id: 3,
         name: 'GirlScript Summer of Code',
         pos: 'Contributor',
         duration: '2024 - 2024',
